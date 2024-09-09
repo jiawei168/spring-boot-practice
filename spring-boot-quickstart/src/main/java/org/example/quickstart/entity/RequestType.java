@@ -1,4 +1,4 @@
-package org.example.quickstart;
+package org.example.quickstart.entity;
 
 public enum RequestType {
     QUERY,

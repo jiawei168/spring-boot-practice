@@ -1,0 +1,4 @@
+server:
+  servlet:
+    context-path: /zjw
+  port: 8888

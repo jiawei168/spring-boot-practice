@@ -1,0 +1,91 @@
+2024-09-09 20:00:49.157 INFO  [restartedMain] org.example.logging.Application : Starting Application using Java 17.0.11 with PID 1396 (E:\SpringProject\spring\spring-boot-practice\spring-boot-logging\target\classes started by 86184 in E:\SpringProject\spring\spring-boot-practice)
+2024-09-09 20:00:49.159 INFO  [restartedMain] org.example.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 20:00:49.187 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 20:00:49.187 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 20:00:49.762 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 20:00:49.772 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 20:00:49.773 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 20:00:49.816 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 20:00:49.817 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 628 ms
+2024-09-09 20:00:50.009 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-09 20:00:50.034 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 20:00:50.040 INFO  [restartedMain] org.example.logging.Application : Started Application in 1.181 seconds (process running for 1.616)
+2024-09-09 20:04:23.992 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-09 20:06:22.733 INFO  [restartedMain] org.example.logging.Application : Starting Application using Java 17.0.11 with PID 30316 (E:\SpringProject\spring\spring-boot-practice\spring-boot-logging\target\classes started by 86184 in E:\SpringProject\spring\spring-boot-practice)
+2024-09-09 20:06:22.735 INFO  [restartedMain] org.example.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 20:06:22.763 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 20:06:22.763 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 20:06:23.314 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 20:06:23.323 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 20:06:23.323 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 20:06:23.356 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 20:06:23.357 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 594 ms
+2024-09-09 20:06:23.543 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-09 20:06:23.571 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 20:06:23.578 INFO  [restartedMain] org.example.logging.Application : Started Application in 1.132 seconds (process running for 1.542)
+2024-09-09 20:06:50.095 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 20:06:50.095 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-09 20:06:50.095 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 0 ms
+2024-09-09 20:06:50.112 INFO  [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a INFO log
+2024-09-09 20:06:50.113 WARN  [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a WARN log
+2024-09-09 20:06:50.113 ERROR [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a ERROR log
+2024-09-09 20:07:20.992 INFO  [http-nio-8080-exec-5] org.example.logging.controller.LogController : This is a INFO log
+2024-09-09 20:07:20.992 WARN  [http-nio-8080-exec-5] org.example.logging.controller.LogController : This is a WARN log
+2024-09-09 20:07:20.992 ERROR [http-nio-8080-exec-5] org.example.logging.controller.LogController : This is a ERROR log
+2024-09-09 20:07:24.945 INFO  [http-nio-8080-exec-6] org.example.logging.controller.LogController : This is a INFO log
+2024-09-09 20:07:24.945 WARN  [http-nio-8080-exec-6] org.example.logging.controller.LogController : This is a WARN log
+2024-09-09 20:07:24.945 ERROR [http-nio-8080-exec-6] org.example.logging.controller.LogController : This is a ERROR log
+2024-09-09 20:15:42.385 INFO  [File Watcher] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-09 20:15:42.952 INFO  [restartedMain] org.example.logging.Application : Starting Application using Java 17.0.11 with PID 30316 (E:\SpringProject\spring\spring-boot-practice\spring-boot-logging\target\classes started by 86184 in E:\SpringProject\spring\spring-boot-practice)
+2024-09-09 20:15:42.953 INFO  [restartedMain] org.example.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 20:15:43.063 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 20:15:43.064 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 20:15:43.064 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 20:15:43.075 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 20:15:43.075 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 121 ms
+2024-09-09 20:15:43.113 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-09 20:15:43.119 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 20:15:43.122 INFO  [restartedMain] org.example.logging.Application : Started Application in 0.191 seconds (process running for 561.086)
+2024-09-09 20:15:43.123 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-09 20:17:01.555 INFO  [restartedMain] org.example.logging.Application : Starting Application using Java 17.0.11 with PID 11088 (E:\SpringProject\spring\spring-boot-practice\spring-boot-logging\target\classes started by 86184 in E:\SpringProject\spring\spring-boot-practice)
+2024-09-09 20:17:01.557 INFO  [restartedMain] org.example.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 20:17:01.585 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 20:17:01.586 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 20:17:02.145 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 20:17:02.154 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 20:17:02.154 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 20:17:02.185 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 20:17:02.186 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 600 ms
+2024-09-09 20:17:02.376 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-09 20:17:02.401 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 20:17:02.407 INFO  [restartedMain] org.example.logging.Application : Started Application in 1.162 seconds (process running for 1.609)
+2024-09-09 20:17:06.340 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 20:17:06.341 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-09 20:17:06.341 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 0 ms
+2024-09-09 20:17:06.359 INFO  [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a INFO log
+2024-09-09 20:17:06.359 WARN  [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a WARN log
+2024-09-09 20:17:06.359 ERROR [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a ERROR log
+2024-09-09 20:17:07.837 INFO  [http-nio-8080-exec-2] org.example.logging.controller.LogController : This is a INFO log
+2024-09-09 20:17:07.837 WARN  [http-nio-8080-exec-2] org.example.logging.controller.LogController : This is a WARN log
+2024-09-09 20:17:07.837 ERROR [http-nio-8080-exec-2] org.example.logging.controller.LogController : This is a ERROR log
+2024-09-09 20:18:05.512 INFO  [restartedMain] org.example.logging.Application : Starting Application using Java 17.0.11 with PID 23420 (E:\SpringProject\spring\spring-boot-practice\spring-boot-logging\target\classes started by 86184 in E:\SpringProject\spring\spring-boot-practice)
+2024-09-09 20:18:05.514 INFO  [restartedMain] org.example.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 20:18:05.546 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 20:18:05.546 INFO  [restartedMain] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 20:18:06.116 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 20:18:06.125 INFO  [restartedMain] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 20:18:06.126 INFO  [restartedMain] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 20:18:06.161 INFO  [restartedMain] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 20:18:06.161 INFO  [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 615 ms
+2024-09-09 20:18:06.362 INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer : LiveReload server is running on port 35729
+2024-09-09 20:18:06.387 INFO  [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 20:18:06.393 INFO  [restartedMain] org.example.logging.Application : Started Application in 1.196 seconds (process running for 1.703)
+2024-09-09 20:18:12.310 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 20:18:12.310 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-09 20:18:12.311 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2024-09-09 20:18:12.329 INFO  [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a INFO log
+2024-09-09 20:18:12.329 WARN  [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a WARN log
+2024-09-09 20:18:12.329 ERROR [http-nio-8080-exec-1] org.example.logging.controller.LogController : This is a ERROR log
+2024-09-09 20:18:13.266 INFO  [http-nio-8080-exec-2] org.example.logging.controller.LogController : This is a INFO log
+2024-09-09 20:18:13.267 WARN  [http-nio-8080-exec-2] org.example.logging.controller.LogController : This is a WARN log
+2024-09-09 20:18:13.267 ERROR [http-nio-8080-exec-2] org.example.logging.controller.LogController : This is a ERROR log
